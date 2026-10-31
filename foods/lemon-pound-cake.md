@@ -2,6 +2,8 @@
 
 # Lemon Pound Cake
 
+![Dessert](https://img.shields.io/badge/Dessert-7C3AED?style=flat)
+
 Creamed butter pound cake with the zest of two lemons, finished with a lemon glaze.
 
 |            |                                                                                |

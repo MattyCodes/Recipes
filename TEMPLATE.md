@@ -1,9 +1,12 @@
 <!-- Copy into foods/, sauces/, cocktails/ or meads/ as <kebab-case-name>.md.
-     Relative links below assume the copy lives one directory down from the root. -->
+     Relative links below assume the copy lives one directory down from the root.
+     Delete anything this recipe doesn't have — never leave an empty slot. -->
 
 [← Recipes](../README.md) · [← {Category}](README.md)
 
 # {Recipe Name}
+
+![{Tag}](https://img.shields.io/badge/{Tag}-{HEX}?style=flat)
 
 {One line: what it is and why you'd make it.}
 
@@ -17,6 +20,8 @@
 <!-- Swap in what fits, delete what doesn't:
      Cocktails — Glass, Garnish, Method (shaken / stirred / built)
      Meads     — Batch, OG / FG, ABV, Age -->
+
+![{Recipe Name}](images/{kebab-case-name}.jpg)
 
 ## Ingredients
 

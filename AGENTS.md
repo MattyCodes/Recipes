@@ -3,7 +3,8 @@
 ## Layout
 
 - `TEMPLATE.md` — base template every recipe copies.
-- `foods/`, `sauces/`, `cocktails/`, `meads/` — one Markdown file per recipe, plus a `README.md` index.
+- `foods/`, `sauces/`, `cocktails/`, `meads/` — one Markdown file per recipe, plus a `README.md`
+  index and an `images/` directory when a recipe has a picture.
 
 ## Adding a recipe from a URL
 
@@ -25,6 +26,58 @@
      the section.
    - Delete every leftover `{placeholder}` and template comment.
 4. Update the indexes — see below. This is part of adding the recipe, not a follow-up.
+
+## Page order
+
+Every recipe page runs in this order. Whatever a recipe doesn't have is deleted, not left blank.
+
+1. Breadcrumb
+2. `# Title`
+3. Badges, if the recipe is tagged
+4. One- or two-line description
+5. Info table
+6. Image, if one was supplied
+7. `## Ingredients`, `## Steps`, `## Notes`
+
+## Images
+
+When the user supplies an image for a recipe, it goes **below the description and the info table**,
+immediately before `## Ingredients` — never at the top of the page, where it would push the
+breadcrumb and the table out of view.
+
+- Save it as `<category>/images/<kebab-case-name>.<ext>`, matching the recipe's filename. Create the
+  `images/` directory if it isn't there yet.
+- Reference it relatively: `![Recipe Name](images/recipe-name.jpg)`.
+- Alt text is the recipe's name, not a description of the photo.
+- One image per recipe. If the user supplies several, use the best one and leave the rest out.
+
+## Badges
+
+Badges are the tagging system. They are shields.io static images, which render in colour on GitHub
+where inline HTML styling does not. A recipe may carry several, or none at all — most carry none.
+
+Form, on both the recipe page and its index row:
+
+```
+![Dessert](https://img.shields.io/badge/Dessert-7C3AED?style=flat)
+```
+
+- On the page: on their own line directly under the `# Title`, separated by spaces when there are
+  several, before the description.
+- In the index: directly after the recipe's link in the `Recipe` column of its category README.
+- The two must agree. A badge on the page but not the index row (or the reverse) is a bug — the
+  check below catches it.
+
+### Registry
+
+Every tag and its colour. Use these exactly; don't improvise a shade for a tag already listed.
+
+| Tag | Colour | Badge |
+| --- | ------ | ----- |
+| Dessert | `7C3AED` | ![Dessert](https://img.shields.io/badge/Dessert-7C3AED?style=flat) |
+
+Adding a tag: pick a colour distinct from the ones above, add the row here first, then apply it.
+Keep tags single words where possible; a tag with a space is written `Two%20Words` in the URL.
 
 ## Temperatures
 
@@ -57,9 +110,9 @@ Adding the first recipe to a directory replaces its `_nothing here yet_` row; em
 restores it. A new category directory needs its own `README.md` with the breadcrumb and table, plus
 a row in the root index.
 
-Before you call a task done, verify it. All three checks below should print nothing but their
-headings — they skip `TEMPLATE.md` and `AGENTS.md`, whose links are placeholders and examples by
-design.
+Before you call a task done, verify it. All four checks below should print nothing but their
+headings — they skip `TEMPLATE.md` and `AGENTS.md`, whose links, badges and placeholders are
+examples by design.
 
 ```bash
 # every relative link resolves
@@ -80,6 +133,16 @@ done
 # every temperature carries both scales
 grep -rn '°[CF]' --include='*.md' . | grep -v TEMPLATE.md | grep -v AGENTS.md \
   | grep -vE '°C / [0-9]+°F|°F / [0-9]+°C' | sed 's/^/UNCONVERTED  /'
+
+# a recipe's badges match its index row
+tags() { grep -o 'badge/[^-]*-[0-9A-Fa-f]\{6\}' | sed 's|badge/||;s|-[0-9A-Fa-f]\{6\}$||' | sort -u | tr '\n' ' '; }
+for d in foods sauces cocktails meads; do
+  find "$d" -name '*.md' ! -name README.md | while read -r r; do
+    page=$(tags < "$r")
+    row=$(grep -F "($(basename "$r"))" "$d/README.md" | tags)
+    [ "$page" = "$row" ] || echo "BADGE MISMATCH  $r  page:[$page] index:[$row]"
+  done
+done
 ```
 
 ## Style

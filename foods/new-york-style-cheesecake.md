@@ -2,6 +2,8 @@
 
 # New York Style Cheesecake
 
+![Dessert](https://img.shields.io/badge/Dessert-7C3AED?style=flat)
+
 Tall, dense water-bath cheesecake on a graham crust, cut with lemon.
 
 |               |                                                                                          |
