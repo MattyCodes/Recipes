@@ -36,9 +36,9 @@ Tall, dense water-bath cheesecake on a graham crust, cut with lemon.
 
 ## Steps
 
-1. Heat the oven to 375°F, rack in the lower middle. Wrap the outside of the springform in two sheets of heavy-duty foil, seamless across the bottom and sides; grease the inside.
+1. Heat the oven to 375°F / 190°C, rack in the lower middle. Wrap the outside of the springform in two sheets of heavy-duty foil, seamless across the bottom and sides; grease the inside.
 2. Mix the crust ingredients and press into an even layer on the pan bottom. Bake 10 min, until set, then set aside.
-3. Drop the oven to 325°F and put a kettle on to boil.
+3. Drop the oven to 325°F / 165°C and put a kettle on to boil.
 4. Beat the cream cheese, sugar and flour on medium until just smooth, about 1 min. Scrape the bowl.
 5. Beat in the vanilla, zest, lemon juice and salt on low, just until combined.
 6. On low, add the eggs one at a time, scraping as needed, then the sour cream. Stop as soon as it's uniform — don't overmix.
