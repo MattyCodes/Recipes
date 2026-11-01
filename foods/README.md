@@ -6,6 +6,7 @@ Mains, sides, bread, anything you eat with a fork.
 
 | Recipe | Notes |
 | ------ | ----- |
+| [Banana Bread](banana-bread.md) ![Bread](https://img.shields.io/badge/Bread-38BDF8?style=flat) | Creamed butter, alternating additions, no dense bottom |
 | [Beer Bread](beer-bread.md) ![Bread](https://img.shields.io/badge/Bread-38BDF8?style=flat) | No-yeast quick bread, one bowl, 10 min of work |
 | [Challah](challah.md) ![Bread](https://img.shields.io/badge/Bread-38BDF8?style=flat) | Braided egg loaf, overnight-friendly, 16 in |
 | [Classic Chili](classic-chili.md) | One pot, toasted spices, beer and cocoa; doubled batch |
