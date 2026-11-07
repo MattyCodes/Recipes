@@ -16,17 +16,17 @@ The dark red chile de árbol salsa taquerías set out for tacos al pastor — ev
 
 ## Ingredients
 
-- 1 large tomato
-- 4 medium tomatillos, husked (or 6 small)
+- 2 tomatoes
+- 3 small tomatillos, husked (or 2 medium)
 - 2 garlic cloves, unpeeled
-- ⅓ medium white onion
+- ⅓ medium white onion, peeled
 - 7 dried árbol peppers
 - Salt, to taste
 
 ## Steps
 
-1. Heat a skillet or heavy griddle over medium. Arrange the tomato, tomatillos, garlic and onion on it.
-2. Roast about 8 min, turning, until blistered and slightly softened. Pull the garlic out after a few minutes, peel it, and set aside. If the tomato still isn't soft, wrap it in foil for 10 min to finish.
+1. Heat a skillet or heavy griddle over medium. Arrange the tomatoes, tomatillos, garlic and onion on it.
+2. Roast about 8 min, turning, until blistered and slightly softened. Pull the garlic out after a few minutes, peel it, and set aside. If they've charred but not softened by then, lower the heat, cover the pan, and give them another 5–10 min, pulling each one off as it goes soft. The author's alternative for a stubborn tomato: wrap it in foil for 10 min to finish.
 3. Move everything to a blender. Add the árbol peppers to the hot griddle and roast briefly — their skins burn fast and turn bitter, so keep them moving.
 4. Blend to a fine texture, thinning with a little water if it's too thick. Season with salt.
 
@@ -34,7 +34,7 @@ The dark red chile de árbol salsa taquerías set out for tacos al pastor — ev
 
 - Don't soak the peppers. Per the author, small dried chiles like árbol and piquín are roasted only, unlike the larger ones.
 - The pepper count is ours, not the source's: it calls for 15, which the comments bear out as punishing. 7 is hot but manageable — go up to 15 for the salsa as written, down to 3 for mild. With ground árbol instead of whole, the author gives about 1 tbsp for the full 15.
-- More tomato than tomatillo gives a deeper red; for a hot, deep-red salsa the author suggests 1 beefsteak or 2 romas to 2–3 tomatillos.
-- The onion is optional.
+- The tomato-to-tomatillo ratio is ours too; the source calls for 1 large tomato to 4 medium tomatillos. Leaning on tomato gives a deeper red, and this lands close to what the author suggests for a hot, deep-red salsa: 1 beefsteak or 2 romas to 2–3 tomatillos.
+- The onion is optional, and goes on the griddle peeled — unlike the garlic, which roasts in its skin and gets peeled after. The paper is what keeps the clove from scorching.
 - Boiling or frying the ingredients works too and tastes different; roasted is the author's preference, and the oven does the job as well.
 - If unsure on salt, the author starts at ⅓ tsp. Keeps 3–4 days in the fridge, a couple of weeks frozen.
