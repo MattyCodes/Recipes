@@ -76,6 +76,7 @@ Every tag and its colour. Use these exactly; don't improvise a shade for a tag a
 | --- | ------ | ----- |
 | Bread | `38BDF8` | ![Bread](https://img.shields.io/badge/Bread-38BDF8?style=flat) |
 | Dessert | `7C3AED` | ![Dessert](https://img.shields.io/badge/Dessert-7C3AED?style=flat) |
+| Spicy | `DC2626` | ![Spicy](https://img.shields.io/badge/Spicy-DC2626?style=flat) |
 
 Adding a tag: pick a colour distinct from the ones above, add the row here first, then apply it.
 Keep tags single words where possible; a tag with a space is written `Two%20Words` in the URL.
